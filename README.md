@@ -1,5 +1,9 @@
 # Breast-cancer-detection
-#### 1. Algorithm use
+#### 1. Introduction
+
+Breast cancer is one of the most common cancer in the world. IDC is one of the representative breast cancer(80% breast cancer is IDC). So, detect if the breast cancer is IDC can be one of the most important method to justify breast cancer.
+
+#### 2. Algorithm use
 
 This is a compute vision project mainly use the following algorithms：
 
@@ -22,7 +26,7 @@ This is a compute vision project mainly use the following algorithms：
   * VGG16
   * VGG19
 
-#### 2. Data introduction
+#### 3. Data introduction
 
 > **Dataset** 
 >
@@ -35,9 +39,9 @@ To classify 2 kinds breast cancer images：
 * **0**: breast cancer negative (IDC-)
 * **1**: breast cancer positive (IDC+)
 
-#### 3.  Result analysis
+#### 4.  Result analysis
 
-##### 3.1 machine learning algorithm
+##### 4.1 machine learning algorithm
 
 For the machine learning model:
 
@@ -48,11 +52,11 @@ For the machine learning model:
 
 From the table we see the SVM has the most accuracy, which is **0.773874  **, and DTC has least loss, which is **0.025225**.
 
-##### 3.2 CNN model
+##### 4.2 CNN model
 
 The CNN model has **0.9387** accuracy, **0.7568** validation accuracy, **0.1576** loss.
 
-##### 3.3 Transfer learning model
+##### 4.3 Transfer learning model
 
 For the transfer learning model：
 
